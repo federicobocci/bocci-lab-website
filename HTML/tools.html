@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformaytics Tools developed in the computational cell fate lab led by Federico Bocci 
+        at Radboud university</title>
+
+    <link rel="stylesheet" href="../CSS/topnav_style.css">
+    <link rel="stylesheet" href="../CSS/general_style.css">
+
+    <style>
+        h1 {text-align: center;}
+
+        .news {
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-top: 50px;
+        }
+
+        .news-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            gap: 50px;
+        }
+
+        .news-text {
+            flex: 1;
+        }
+        
+        .news-figure {
+            flex: 0 0 400px; 
+        }
+
+        .news-figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .news-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="topnav">
+        <a href="../index.html" class="title">Bocci Lab</a>
+        <a href="../index.html">Home</a>
+        <a href="../HTML/people.html">People</a>
+        <a href="../HTML/tools.html"><u>Tools</u></a>
+        <a href="../HTML/publications.html">Publications</a>
+        <a href="../HTML/news.html">News</a>
+        <a href="../HTML/contact.html">Contact & Join Us</a>
+        <a href="../HTML/teaching.html">Teaching</a>
+        <a href="../HTML/about_federico.html">About Federico</a>
+    </nav>
+
+    <h1>Tools</h1>
+
+    <div class="news">
+
+        <div class="news-item">
+            <div class="news-text">
+                <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(26)00185-7" target="_blank">
+                    <strong>scRICH</strong></a><br><br>
+                scRICH (robust identification of cell-cell communication 
+                heterogeneity in single cells) leverages single cell transcriptomics data to 
+                quantify cell-cell communication heterogeneity within cell populations. 
+                By integrating cell transition and gene regulatory network inference, 
+                scRICH identifies emerging patterns of communication along differentiation 
+                lineages and in spatial systems.<br><br>
+                You can find more information about scRICH in the 
+                <a href="https://github.com/federicobocci/Robust-Identification-of-Cell-cell-Communication-Heterogeneity-in-single-cells" target="_blank">
+                    documentation</a>.<br><br>
+                Publication: Federico Bocci, Yunlong Jia, Scott Atwood, Qing Nie, 
+                “Robust identification of cell-cell communication heterogeneity in single 
+                cells” (2026) Cell systems (in press).
+            </div>
+
+            <div class="news-figure">
+                <img src="../images/tools/scrich.png" alt="The workflow of the 
+                bioinformatic package scRICH to study cell-cell communication developed in the lab of 
+                Federico Bocci">
+            </div>
+        </div>
+
+
+        <div class="news-item">
+            <div class="news-text">
+
+                <a href="https://www.nature.com/articles/s41592-024-02266-x" target="_blank">
+                    <strong>STT</strong></a><br><br>
+
+                Spatial transition tensor (STT) is a method that utilizes mRNA splicing and 
+                spatial transcriptomes through a multiscale dynamical model to characterize 
+                multi-stability in space. By learning a four-dimensional transition tensor 
+                and spatial-constrained random walk, STT reconstructs cell-state specific 
+                dynamics and spatial state-transitions via both short-time local tensor 
+                streamlines between cells and long-time transition paths among attractors. 
+                Overall, STT provides a consistent multiscale description of single-cell 
+                transcriptome data across multiple spatiotemporal scales.<br><br>
+                You can find more information about STT in the 
+                <a href="https://github.com/cliffzhou92/STT" target="_blank">
+                    documentation</a>.<br><br>
+                Publication: Peijie Zhou, Federico Bocci, Tiejun Li, Qing Nie, “Spatial 
+                transition tensor of single cells” (2024) Nature Methods 21(6) 1053-1062.
+            </div>
+
+            <div class="news-figure">
+                <img src="../images/tools/stt.png" alt="The workflow of the 
+                bioinformatic package STT spatial transition tensor of single cells developed in the lab of Federico Bocci">
+            </div>
+        </div>
+
+
+        <div class="news-item">
+            <div class="news-text">
+                <a href="https://link.springer.com/article/10.15252/msb.202211176" target="_blank">
+                    <strong>spliceJAC</strong></a><br><br>
+                
+                spliceJAC is a python-based toolkit to reconstruct cell state-specific gene 
+                regulatory networks (GRN) and predict transition driver genes leading to cell 
+                differentiation from single-cell transcriptome data.<br><br>
+                You can find more information about spliceJAC in the 
+                <a href="https://splicejac.readthedocs.io/en/latest/" target="_blank">
+                    documentation</a>.<br><br>
+                Publication: Federico Bocci, Peijie Zhou, Qing Nie, “spliceJAC: transition genes 
+                and state‐specific gene regulation from single‐cell transcriptome data”, 
+                (2022) Molecular Systems Biology 18 (11), e11176.
+            </div>
+
+            <div class="news-figure">
+                <img src="../images/tools/splcejac.png" alt="The workflow of the 
+                bioinformatic package spliceJAC for gene regulatory network infernece developed in the 
+                lab of Federico Bocci">
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+    <div class="site-footer-content">
+        <p><strong>Computational Cell Fate Lab @ Radboud University</strong></p>
+        <p>© 2026 Federico Bocci. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>

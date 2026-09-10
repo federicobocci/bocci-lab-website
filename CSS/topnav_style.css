@@ -1,0 +1,40 @@
+ /* Navigation bar container */
+    .topnav {
+        background-color: rgba(177, 188, 160, 1.0);
+        padding: 30px 20px 10px 20px; /* top right bottom left */
+        text-align: center; /* Center the items horizontally */
+
+        display: flex; /* Enables Flexbox */
+    align-items: center; /* Perfectly centers everything on the vertical axis */
+    justify-content: center; /* Keeps the middle links centered horizontally */
+    position: relative; /* Acts as anchor for the title positioning */
+    }
+
+     /* Website title */
+    .topnav .title {
+        position: absolute;
+        left: 20px; /* Align to left padding */
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        transform: translateY(-30%); /* moves the title up and down. More negative pushes up */
+
+        
+    }
+
+    /* Navigation links */
+    .topnav a {
+        color: #333;
+        text-decoration: none;
+        margin: 0 15px; /* Spacing between links */
+        font-size: 20px; /* 16 */
+        padding: 8px 12px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Hover effect */
+    .topnav a:hover {
+        background-color: #555;
+        border-radius: 4px;
+    }

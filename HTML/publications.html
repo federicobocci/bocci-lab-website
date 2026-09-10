@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications of the computational cell fate lab led by Federico Bocci 
+        at Radboud university</title>
+
+    <link rel="stylesheet" href="../CSS/topnav_style.css">
+    <link rel="stylesheet" href="../CSS/general_style.css">
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .year {
+            padding-left: 200px;
+        }
+
+        .paper_list {
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        /* Highlights section */
+        .highlights {
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+
+        .highlights h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .highlight {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            /* Individual grey box */
+            background-color: rgba(128, 128, 128, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .highlight-image {
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+        }
+
+        .highlight-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .highlight-title {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 1em;
+            line-height: 1.3;
+        }
+
+        /* Optional hover effect */
+        .highlight:hover .highlight-image img {
+            opacity: 0.8;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 1000px) {
+            .highlights {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+
+            .highlights-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .highlights {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            .highlights-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="topnav">
+        <a href="../index.html" class="title">Bocci Lab</a>
+        <a href="../index.html">Home</a>
+        <a href="../HTML/people.html">People</a>
+        <a href="../HTML/tools.html">Tools</a>
+        <a href="../HTML/publications.html"><u>Publications</u></a>
+        <a href="../HTML/news.html">News</a>
+        <a href="../HTML/contact.html">Contact & Join Us</a>
+        <a href="../HTML/teaching.html">Teaching</a>
+        <a href="../HTML/about_federico.html">About Federico</a>
+    </nav>
+
+    <h1>Publications</h1>
+
+
+    <!-- ========================= -->
+    <!--        HIGHLIGHTS         -->
+    <!-- ========================= -->
+
+    <section class="highlights">
+
+        <h2 class="section-title">Highlights</h2>
+
+        <div class="highlights-grid">
+
+            <a class="highlight" href="https://www.cell.com/cell-systems/fulltext/S2405-4712(26)00185-7" 
+            target="_blank">
+                <div class="highlight-image">
+                    <img src="../images/publications/scrich.png" alt="The workflow of the 
+                bioinformatic package scRICH developed in the lab of Federico Bocci">
+                </div>
+                <div class="highlight-title">
+                    Robust identification of cell-cell communication heterogeneity in single cells<br><br>
+                    Federico Bocci, Yunlong Jia, Scott Atwood, Qing Nie, Cell systems (2026) (in press).
+                </div>
+            </a>
+
+            <a class="highlight" href="https://www.cell.com/biophysj/fulltext/S0006-3495(24)00201-7" 
+            target="_blank">
+                <div class="highlight-image">
+                    <img src="../images/publications/biophy_journal.png" alt="The workflow of the 
+                bioinformatic package for cell fate tipping point identification developed in the lab of Federico Bocci">
+                </div>
+                <div class="highlight-title">
+                    Tipping points in epithelial-mesenchymal lineages from single-cell transcriptomics data<br><br>
+                    Manuel Barcenas, Federico Bocci, Qing Nie, Biophysical journal (2024) 23(17) 2849-2859
+                </div>
+            </a>
+
+            <a class="highlight" href="https://www.nature.com/articles/s41592-024-02266-x" target="_blank">
+                <div class="highlight-image">
+                    <img src="../images/tools/stt.png" alt="The workflow of the 
+                bioinformatic package STT spatial transition tensor of single cells developed in the 
+                lab of Federico Bocci">
+                </div>
+                <div class="highlight-title">
+                    Spatial transition tensor of single cells<br><br>
+                    Peijie Zhou, Federico Bocci, Tiejun Li, Qing Nie, Nature Methods (2024) 21(6) 1053-1062
+                </div>
+            </a>
+
+            <a class="highlight" href="https://link.springer.com/article/10.15252/msb.202211176" target="_blank">
+                <div class="highlight-image">
+                    <img src="../images/publications/splicejac.png" alt="The workflow of the 
+                bioinformatic package spliceJAC developed in the lab of Federico Bocci">
+                </div>
+                <div class="highlight-title">
+                    spliceJAC: transition genes 
+                and state‐specific gene regulation from single‐cell transcriptome data<br><br>
+                    Federico Bocci, Peijie Zhou, Qing Nie, Molecular Systems Biology (2022) 18 (11), e11176
+                </div>
+            </a>
+
+            <a class="highlight" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010306"
+            target="_blank">
+                <div class="highlight-image">
+                    <img src="../images/publications/plos.png" alt="The workflow of the 
+                computational model of cell-cell communication patterning developed in the lab of Federico Bocci">
+                </div>
+                <div class="highlight-title">
+                    Stochastic fluctuations promote ordered pattern formation of cells in the 
+                    Notch-Delta signaling pathway<br><br>
+                    Madeline Galbraith, Federico Bocci, José N Onuchic, Plos Computational Biology 
+                    (2022) 18(7), e1010306.
+                </div>
+            </a>
+
+            <a class="highlight" href="https://www.pnas.org/doi/10.1073/pnas.1815345116" target="_blank">
+                <div class="highlight-image">
+                    <img src="../images/publications/pnas.png" alt="The workflow of the 
+                computational model for cell patterning in epithelial-mesenchymal transition 
+                developed in the lab of Federico Bocci">
+                </div>
+                <div class="highlight-title">
+                    Toward understanding Cancer Stem Cell heterogeneity in the tumor microenvironment<br><br>
+                    Federico Bocci, Larisa Gearhart-Serna, Marcelo Boareto, Mariana Ribeiro, 
+                    Eshel Ben-Jacob, Gayathri R Devi, Herbert Levine, José Nelson Onuchic, 
+                    Mohit Kumar Jolly, PNAS (2019) 116(1):148-157
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!--     PUBLICATION LIST       -->
+    <!-- ========================= -->
+
+    <h2 class="section-title">Full publications list</h2>
+
+    <p class="paper_list">*=co-first author, #=co-senior author</p>
+
+    <h2 class="year">2026</h2>
+    <p class="paper_list">
+        Federico Bocci<sup>#</sup>, Yunlong Jia, Scott Atwood, Qing Nie<sup>#</sup>, 
+        “Robust identification of cell-cell communication heterogeneity in single 
+        cells” (2026) Cell systems (in press).<br><br>
+
+        Hacène Medkour*, Federico Bocci*, Norman Schneider, Idalba Serrato-Pomar, Félix Rey-Cadilhac, 
+        Yingzi Liu, Elliott F Miot, Axel A Almet, Marine Louarn, Nicolas Aubourg, Wilfried Saron, 
+        Ghizlane Maarifi, Dorothée Missé, Qing Nie, Duncan R Smith, Sébastien Nisole, Ashley St John, 
+        Charles Dutertre, Maksim V Plikus, Julien Pompon, 
+        "Single-cell characterization of skin response to a bite by West Nile virus-infected mosquito 
+        reveals fibroblast-mediated barrier to transmission" (2026) bioRxiv 2026.01. 08.698384.
+    </p>
+
+    <h2 class="year">2025</h2>
+    <p class="paper_list">
+        Ping Wu, Federico Bocci, Christian F Guerrero-Juarez, Chih-Kuan Chen, George Wang, 
+        Tzu-Yu Liu, Jiayi Lu, Shu-Man Hsieh Li, Yung-Chih Lai, Ting-Xin Jiang, Randall B Widelitz, 
+        Ming-Xing Lei, Arthur D Lander, Qing Nie, Cheng-Ming Chuong, 
+        “Regulation of feather length: FGF/IGF signaling and NOTCH/YAP modulation of progenitor cell topology” 
+        (2025) Science Advances 11(34) eadw2382.<br><br>
+    </p>
+
+    <h2 class="year">2024</h2>
+    <p class="paper_list">
+        Manuel Barcenas*, Federico Bocci*<sup>,#</sup>, Qing Nie<sup>#</sup>, 
+        “Tipping points in epithelial-mesenchymal lineages from single-cell transcriptomics data” 
+        (2024) Biophysical journal 23(17) 2849-2859.<br><br>
+
+        Peijie Zhou, Federico Bocci, Tiejun Li, Qing Nie, 
+        “Spatial transition tensor of single cells” 
+        (2024) Nature Methods 21(6) 1053-1062.<br><br>
+
+        Tae-Yun Kang*, Federico Bocci*, Qing Nie, José N Onuchic, Andre Levchenko, 
+        “Spatial-temporal order-disorder transition in angiogenic NOTCH signaling controls cell fate specification”, 
+        (2024) eLife 12: RP89262.<br><br>
+    </p>
+
+    <h2 class="year">2023</h2>
+    <p class="paper_list">
+        Federico Bocci<sup>#</sup>, Dongya Jia, Qing Nie, Mohit Kumar Jolly, José Onuchic<sup>#</sup>, 
+        “Theoretical and computational tools to model multistable gene regulatory networks”, 
+        (2023) Reports of Progress in Physics 86 (10), 106601.<br><br>
+
+        Julie Wiedemann, Allison C Billi, Federico Bocci, Ghaidaa Kashgari, Enze Xing, Lam C Tsoi, Leo Meller, 
+        William R Swindell, Rachael Wasikowski, Xianying Xing, Feiyang Ma, Mehrnaz Gharaee-Kermani, 
+        J Michelle Kahlenberg, Paul W Harms, Emanual Maverakis, Qing Nie, Johann E Gudjonsson, Bogi Andersen, 
+        “Body site changes in skin cell composition and differential use of dual epidermal differentiation 
+        trajectories in human palm, sole, and hip skin”, 
+        (2023) Cell Reports 42(1) 111994.<br><br>
+    </p>
+
+    <h2 class="year">2022</h2>
+    <p class="paper_list">
+        Federico Bocci, Peijie Zhou, Qing Nie, 
+        “spliceJAC: transition genes and state‐specific gene regulation from single‐cell transcriptome data”, 
+        (2022) Molecular Systems Biology 18 (11), e11176.<br><br>
+
+        Madeline Galbraith*, Federico Bocci*<sup>,#</sup>, José N Onuchic<sup>#</sup>, 
+        “Stochastic fluctuations promote ordered pattern formation of cells in the Notch-Delta signaling pathway” 
+        (2022), Plos Computational Biology 18(7), e1010306.<br><br>
+
+        Federico Bocci<sup>#</sup>, Regine Schneider-Stock<sup>#</sup>, Sreeparna Banerjee<sup>#</sup>, 
+        “Editorial: Epithelial to Mesenchymal Plasticity in Colorectal Cancer”, 
+        (2022), Frontiers in Cell and Developmental Biology, 1315.<br><br>
+
+        Samuel A Vilchez Mercedes*, Federico Bocci*, Mona Ahmed, Ian Eder, Ninghao Zhu, Herbert Levine, 
+        José N Onuchic, Mohit Kumar Jolly, Pak Kin Wong, 
+        “Nrf2 modulates the hybrid epithelial/mesenchymal phenotype and Notch signaling during collective cancer migration” 
+        (2022) Frontiers in Molecular Biosciences 9:807324.<br><br>
+    </p>
+
+    <h2 class="year">2021</h2>
+    <p class="paper_list">
+        Federico Bocci, Peijie Zhou, Qing Nie, 
+        “Single-Cell RNA-Seq Analysis Reveals the Acquisition of Cancer Stem Cell Traits and Increase of Cell–Cell Signaling during EMT Progression” 
+        (2021) Cancers 13(22), 5726.<br><br>
+
+        Samuel A Vilchez Mercedes, Federico Bocci, Herbert Levine, José N Onuchic, Mohit Kumar Jolly, 
+        Pak Kin Wong, “Decoding leader cells in collective cancer invasion” 
+        (2021) Nature Reviews Cancer 21:592-604.<br><br>
+
+        Federico Bocci, Susmita Mandal, Tanishq Tejaswi, Mohit Kumar Jolly, 
+        “Investigating epithelial-mesenchymal heterogeneity of tumors and circulating tumor cells with transcriptomic analysis and biophysical modeling” 
+        (2021) Computational and Systems Oncology 1(2): e1015.<br><br>
+
+        Divyoj Singh, Federico Bocci, Prakash Kulkarni, Mohit Kumar Jolly, 
+        “Coupled feedback loops involving PAGE4, EMT and Notch signaling can give rise to non-genetic heterogeneity in prostate cancer cells” 
+        (2021) Entropy 23(3):288.<br><br>
+
+        Yutong Sha, Shuxiong Wang, Federico Bocci, Peijie Zhou, Qing Nie, 
+        “Inference of intercellular communication and multilayer gene-regulations of Epithelial-Mesenchymal Transition from single cell Transcriptomic data”, 
+        (2021) Frontiers in Genetics 11:170.<br><br>
+    </p>
+
+    <h2 class="year">2020</h2>
+    <p class="paper_list">
+        Federico Bocci, José Nelson Onuchic, Mohit Kumar Jolly, 
+        “Understanding the principles of pattern formation driven by Notch signaling by integrating experiments and theoretical models” 
+        (2020) Frontiers in Physiology 11:929.<br><br>
+    </p>
+
+    <h2 class="year">2019</h2>
+    <p class="paper_list">
+        Tae-Yun Kang, Federico Bocci, Mohit Kumar Jolly, Herbert Levine, José Nelson Onuchic, Andre Levchenko, 
+        “Pericytes enable effective angiogenesis in the presence of pro-inflammatory signals”, 
+        (2019) Proceedings of the National Academy of Sciences 116 (47), 23551-23561.<br><br>
+
+        Federico Bocci, Mohit Kumar Jolly, José Nelson Onuchic, 
+        “A biophysical model uncovers the size distribution of circulating tumor cell clusters across cancer types”, 
+        (2019) Cancer Research 79 (21), 5527-5535.<br><br>
+
+        Federico Bocci*, Satyendra C Tripathi*, Samuel A Vilchez Mercedes*, Jason T George, Julian P Casabar, 
+        Pak Kin Wong, Samir M Hanash, Herbert Levine, José N Onuchic, Mohit Kumar Jolly, 
+        “NRF2 prevents a complete Epithelial-Mesenchymal Transition and is maximally expressed in a hybrid 
+        Epithelial/Mesenchymal phenotype” (2019), Integrative Biology 11(6):251-263.<br><br>
+
+        Dongya Jia, Xuefei Li, Federico Bocci, Shubham Tripathi, Youyuan Deng, Mohit Kumar Jolly, 
+        José N Onuchic, Herbert Levine, 
+        “Quantifying cancer epithelial-mesenchymal plasticity and its association with stemness and immune response” 
+        (2019) Journal of Clinical Medicine 8(5):725.<br><br>
+
+        Xingcheng Lin, Prakash Kulkarni, Federico Bocci, Nicholas P Schafer, Susmita Roy, Min-Yeh Tsai, 
+        Yanan He, Yihong Chen, Krithika Rajagopalan, Steven M Mooney, Yu Zeng, Keith Weninger, Alex Grishaev, 
+        José N Onuchic, Herbert Levine, Peter G Wolynes, Ravi Salgia, Govindan Rangarajan, Vladimir Uversky, 
+        John Orban, Mohit Kumar Jolly, 
+        “Structural and Dynamical Order of a Disordered Protein: Molecular Insights into Conformational Switching of PAGE4 at the Systems Level”, 
+        (2019) Biomolecules 22(9):2.<br><br>
+
+        Federico Bocci, Mohit Kumar Jolly, Herbert Levine, José Nelson Onuchic, 
+        “Quantitative Characteristic of ncRNA Regulation in Gene Regulatory Networks” 
+        (2019), Methods Molecular Biology 1912:341-366.<br><br>
+
+        Federico Bocci, Herbert Levine, José N Onuchic, Mohit Kumar Jolly, 
+        “Deciphering the dynamics of Epithelial-Mesenchymal Transition and Cancer Stem Cells in tumor progression” 
+        (2019), Current Stem Cell Reports 5(1):11-22.<br><br>
+
+        Federico Bocci*, Larisa Gearhart-Serna*, Marcelo Boareto, Mariana Ribeiro, Eshel Ben-Jacob, 
+        Gayathri R Devi, Herbert Levine, José Nelson Onuchic, Mohit Kumar Jolly, 
+        “Toward understanding Cancer Stem Cell heterogeneity in the tumor microenvironment” 
+        (2019), Proceedings of the National Academy of Sciences 116(1):148-157.<br><br>
+    </p>
+
+    <h2 class="year">2018</h2>
+    <p class="paper_list">
+        Federico Bocci, Mohit Kumar Jolly, Jason George, Herbert Levine, Jose Nelson Onuchic, 
+        “A mechanism-based computational model to capture the interconnections among Epithelial-Mesenchymal 
+        Transition, Cancer Stem Cells and Notch-Jagged signaling” (2018), Oncotarget 9(52):29906-29920.<br><br>
+
+        Xingcheng Lin, Susmita Roy, Mohit Kumar Jolly, Federico Bocci, Nicholas Schafer, Min-Yeh Tsai, 
+        Prakash Kulkarni, Yihong Chen, Yanan He, John Orban, Alexander Grishaev, Keith Weninger, Govindan 
+        Rangarajan, Herbert Levine, Jose Nelson Onuchic, 
+        “PAGE4 and Conformational Switching: Insights from Molecular Dynamics Simulations and Implications for Prostate Cancer” 
+        (2018), Journal of Clinical Medicine 340(16):2422-2438.<br><br>
+
+        Federico Bocci, Yoko Suzuki, Mingyang Lu, José N Onuchic, 
+        “Role of metabolic spatiotemporal dynamics in modulating biofilm colony expansion” 
+        (2018), Proceedings of the National Academy of Sciences 115(16):4288-4293.<br><br>
+    </p>
+
+    <h2 class="year">2017</h2>
+    <p class="paper_list">
+        Federico Bocci, Mohit K Jolly, Satyendra C Tripathi, Mitzi Aguilar, Samir M Hanash, Herbert Levine, 
+        José N Onuchic, 
+        “Numb prevents a complete Epithelial-Mesenchymal Transition by modulating Notch signalling” 
+        (2017), Journal of the Royal Society Interface 14(136):2.<br><br>
+    </p>
+
+    <footer class="site-footer">
+    <div class="site-footer-content">
+        <p><strong>Computational Cell Fate Lab @ Radboud University</strong></p>
+        <p>© 2026 Federico Bocci. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>
+
