@@ -11,6 +11,66 @@
 
     <style>
         h1 {text-align: center;}
+
+        .contact-intro {
+            padding-left: 125px;
+            padding-right: 50px;
+            box-sizing: border-box;
+        }
+
+        .contact-layout {
+            display: flex;
+            width: 100%;
+            min-height: 600px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-text {
+            width: 50%;
+            padding: 0 50px 0 125px;
+            box-sizing: border-box;
+        }
+
+        .contact-map {
+            width: 50%;
+            padding: 20px 20px 0 0;
+            box-sizing: border-box;
+        }
+
+        .contact-map iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 450px;
+            border: 0;
+        }
+
+        @media (max-width: 700px) {
+            .contact-intro {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .contact-layout {
+                flex-direction: column;
+                min-height: 0;
+            }
+
+            .contact-text {
+                width: 100%;
+                padding: 0 20px;
+            }
+
+            .contact-map {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .contact-map iframe {
+                width: 100%;
+                height: 350px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -31,7 +91,7 @@
 
 
     <!-- Wrapped section with matching left and right padding -->
-    <div style="padding-left: 125px; padding-right: 50px; box-sizing: border-box;">
+    <div class="contact-intro">
         <h2>Open positions and projects</h2>
 
         <p>We always look for motivated bachelor and master students with background in biology, 
@@ -56,9 +116,9 @@
     <hr width="80%" >
     <br>
 
-<div style="display: flex; width: 100%; height: 100vh; margin: 0; padding: 0;">
+<div class="contact-layout">
     <!-- Left block: Text -->
-    <div style="width: 50%; padding: 0px; padding-left: 125px; padding-right: 50px; box-sizing: border-box;">
+    <div class="contact-text">
  
         
         <h2>Contact Us</h2>
@@ -79,8 +139,8 @@
     </div>
 
     <!-- Right block: Google Map -->
-    <div style="width: 50%; height: 100%; padding-top: 20px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4932.048455237158!2d5.86204927639257!3d51.82398788752666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c708f074bb52f9%3A0x3f81ed6cd42868a1!2sRadboud%20Institute%20for%20Molecular%20Life%20Sciences%20(RIMLS)!5e0!3m2!1sen!2snl!4v1754749523445!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4932.048455237158!2d5.86204927639257!3d51.82398788752666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c708f074bb52f9%3A0x3f81ed6cd42868a1!2sRadboud%20Institute%20for%20Molecular%20Life%20Sciences%20(RIMLS)!5e0!3m2!1sen!2snl!4v1754749523445!5m2!1sen!2snl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 
