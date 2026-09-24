@@ -82,6 +82,11 @@
         overflow: hidden;
     }
 
+    /* Hide the image area when no image is provided */
+    .news-figure:not(:has(img)) {
+        display: none;
+    }
+
     /*
      * Images retain their natural aspect ratio.
      *
@@ -379,12 +384,6 @@
 
         <div class="news-item">
 
-            <div class="news-figure">
-                <!-- Add an image here when one is available -->
-                <img src="../images/news/2025_yunong.png"
-                     alt="Yunong joins the group">
-            </div>
-
             <div class="news-text">
                 <strong>August 2025:</strong>
                 Yunong joins the group as a visiting master student
@@ -457,12 +456,6 @@
 
 
         <div class="news-item">
-
-            <div class="news-figure">
-                <!-- Add an image here when one is available -->
-                <img src="../images/news/2025_nynke.png"
-                     alt="Nynke joins the group">
-            </div>
 
             <div class="news-text">
                 <strong>March 2025:</strong>
